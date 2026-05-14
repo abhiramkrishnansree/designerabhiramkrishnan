@@ -1,5 +1,5 @@
 // Marquee
-const marqueeItems = ["Branding","Packaging","Social Media","UI / UX","Advertising","Editorial","Hoardings","Identity"];
+const marqueeItems = ["Brand Identity","Packaging","Social Media","UI / UX","Advertising","Logo Design","Hoardings"];
 const track = document.getElementById("marquee-track");
 const buildRow = () => marqueeItems.map(t => `<span>${t}<span class="star">★</span></span>`).join("");
 track.innerHTML = buildRow() + buildRow() + buildRow();
